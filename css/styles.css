@@ -1,0 +1,195 @@
+:root {
+  --brandcolor: #212121;
+  --secondcolor: #000000;
+  --thirdcolor: #757575;
+  --fourthcolor: #2196f3;
+  --fifhtcolor: #ffffff;
+  --sixthcolor: #2f303a;
+  --seventhcolor: #e5e5e5;
+  --eighthcolor: rgba (255, 255, 255, 0.6);
+  --ninthcolor: #f5f4fa;
+  --tenthcolor: #eeeeee;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--brandcolor);
+  background: var(--fifhtcolor);
+  letter-spacing: 0.03em;
+}
+.brandname {
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--secondcolor);
+  text-decoration: none;
+}
+.pieceofbrand {
+  color: var(--fourthcolor);
+}
+.nav-link {
+  font-weight: 500;
+  text-align: left;
+  color: currentColor;
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.nav-link:hover,
+.nav-link:focus,
+.contact-links a:hover,
+.contact-links a:focus {
+  color: var(--fourthcolor);
+  cursor: pointer;
+}
+.contact-links {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--thirdcolor);
+}
+.contact-links a {
+  text-decoration: none;
+  color: inherit;
+}
+.contactfooter {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contactfooter:hover,
+.contactfooter:focus {
+  color: var(--fourthcolor);
+  cursor: pointer;
+}
+.localization {
+  line-height: 1.71;
+  text-decoration: none;
+  color: var(--fifhtcolor);
+  font-style: normal;
+}
+.footer {
+  background-color: var(--sixthcolor);
+}
+.brandnamefooter {
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+  color: var(--fifhtcolor);
+  text-decoration: none;
+}
+.main-header {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--fifhtcolor);
+}
+.buttonfirst {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background-color: var(--fourthcolor);
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Roboto';
+}
+.main-section {
+  background-color: var(--sixthcolor);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.loremheader {
+  font-weight: 700;
+  color: var(--brandcolor);
+}
+.loremdescrition {
+  line-height: 1.71;
+  text-align: left;
+  color: var(--thirdcolor);
+}
+.secondheader {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--brandcolor);
+}
+.back {
+  background: #f5f4fa;
+}
+
+.emloyee {
+  height: 368px;
+  width: 270px;
+  left: 215px;
+  top: 1635px;
+  border-radius: [object Object]px;
+  background-color: var(--fifhtcolor);
+}
+.thirdheader {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--brandcolor);
+}
+.position {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--thirdcolor);
+}
+
+.button-next {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  background-color: var(--ninthcolor);
+  color: var(--brandcolor);
+  cursor: pointer;
+  font-family: 'Roboto';
+}
+.buttonnext:hover,
+.buttonnext:focus {
+  color: var(--fifhtcolor);
+  background-color: var(--fourthcolor);
+  cursor: pointer;
+}
+.image-border {
+  height: 404px;
+  width: 370px;
+  left: 215px;
+  top: 262px;
+  border-radius: 0px;
+  background-color: #eeeeee;
+}
+.portfolioheader {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: var(--brandcolor);
+}
+.portfoliodescription {
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  color: var(--thirdcolor);
+}
