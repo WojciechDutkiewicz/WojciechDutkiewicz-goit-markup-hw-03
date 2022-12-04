@@ -1,3 +1,9 @@
+*,
+*::before *::after {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --brandcolor: #212121;
   --secondcolor: #000000;
@@ -17,12 +23,29 @@ body {
   background: var(--fifhtcolor);
   letter-spacing: 0.03em;
 }
+
+.container {
+  width: 1200px;
+  outline: 1px blue solid;
+  margin: 0 auto;
+}
+.boxfirst {
+  outline: 1px red dashed;
+  padding: 24px 0 32px 15px;
+  margin: 0 auto;
+  max-width: 1600px;
+  display: flex;
+  align-items: baseline;
+  border: 1px solid #ececec;
+}
+
 .brandname {
   font-family: 'Raleway';
   font-size: 26px;
   font-weight: 700;
   color: var(--secondcolor);
   text-decoration: none;
+  margin-right: 93px;
 }
 .pieceofbrand {
   color: var(--fourthcolor);
@@ -33,8 +56,12 @@ body {
   color: currentColor;
   text-decoration: none;
 }
-.list {
+.list-upper {
   list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 46px;
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -47,6 +74,8 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--thirdcolor);
+  margin-left: 371px;
+  gap: 50px;
 }
 .contact-links a {
   text-decoration: none;
@@ -70,6 +99,12 @@ body {
 }
 .footer {
   background-color: var(--sixthcolor);
+  padding: 60px 0 60px 15px;
+  margin-top: 20px;
+}
+.footerlist {
+  list-style: none;
+  padding-left: 0;
 }
 .brandnamefooter {
   font-family: 'Raleway';
@@ -86,7 +121,11 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--fifhtcolor);
+  width: 696px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
+
 .buttonfirst {
   border-radius: 4px;
   font-size: 16px;
@@ -98,9 +137,35 @@ body {
   color: #ffffff;
   cursor: pointer;
   font-family: 'Roboto';
+  padding: 10px 41px;
+  align-items: center;
+  margin-left: 252px;
 }
+
 .main-section {
   background-color: var(--sixthcolor);
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 200px 0 200px 252px;
+  outline: 1px red dashed;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-two {
+  max-width: 1600px;
+}
+
+.list-second {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding-left: 15px;
+  margin: 0;
+}
+.loremitem {
+  flex-basis: calc((100%- 90px) / 4);
 }
 .visually-hidden {
   position: absolute;
@@ -118,29 +183,43 @@ body {
 .loremheader {
   font-weight: 700;
   color: var(--brandcolor);
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .loremdescrition {
   line-height: 1.71;
   text-align: left;
   color: var(--thirdcolor);
+  margin: 0;
 }
 .secondheader {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
   color: var(--brandcolor);
+  margin: 0;
+}
+.ourteam {
+  margin-bottom: 50px;
+}
+.list-third {
+  padding-left: 15px;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  gap: 30px;
+}
+.thirditem {
+  flex-basis: calc((100%-60px) / 2);
 }
 .back {
   background: #f5f4fa;
 }
 
 .emloyee {
-  height: 368px;
-  width: 270px;
-  left: 215px;
-  top: 1635px;
   border-radius: [object Object]px;
   background-color: var(--fifhtcolor);
+  flex-basis: calc((100%-90px) / 4);
 }
 .thirdheader {
   font-size: 16px;
