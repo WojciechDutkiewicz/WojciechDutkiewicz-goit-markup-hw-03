@@ -1,4 +1,3 @@
-# goit-markup-hw-02
+# WojciechDutkiewicz-goit-markup-hw-03
 
-https://github.com/WojciechDutkiewicz/goit-markup-hw-02
-https://wojciechdutkiewicz.github.io/goit-markup-hw-02/
+https://wojciechdutkiewicz.github.io/WojciechDutkiewicz-goit-markup-hw-03/
