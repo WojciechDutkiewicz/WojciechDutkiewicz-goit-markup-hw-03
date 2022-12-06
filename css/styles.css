@@ -225,6 +225,10 @@ button {
   line-height: 1.71;
   color: var(--fifhtcolor);
   font-style: normal;
+  margin-bottom: 9px;
+}
+.mail {
+  margin-bottom: 9px;
 }
 .footerlist {
   display: block;
@@ -235,6 +239,7 @@ button {
   font-weight: 700;
   text-align: left;
   color: var(--fifhtcolor);
+  margin-bottom: 20px;
 }
 
 .button-next {
