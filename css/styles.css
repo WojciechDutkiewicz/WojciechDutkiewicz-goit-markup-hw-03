@@ -222,18 +222,21 @@ button {
   cursor: pointer;
 }
 .localization {
+  display: block;
   line-height: 1.71;
   color: var(--fifhtcolor);
   font-style: normal;
   margin-bottom: 9px;
 }
 .mail {
+  display: block;
   margin-bottom: 9px;
 }
 .footerlist {
   display: block;
 }
 .brandnamefooter {
+  display: block;
   font-family: 'Raleway';
   font-size: 26px;
   font-weight: 700;
