@@ -23,7 +23,6 @@ body {
   background: var(--fifhtcolor);
   width: 1600px;
   margin: 0 auto;
-  outline: 1px red dashed;
 }
 h1,
 h2,
@@ -53,7 +52,6 @@ button {
 }
 .container {
   width: 1200px;
-  outline: 1px blue solid;
   margin: 0 auto;
   padding-left: 15px;
 }
