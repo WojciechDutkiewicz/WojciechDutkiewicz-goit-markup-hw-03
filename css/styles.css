@@ -262,7 +262,7 @@ button {
 }
 .list-of-buttons {
   justify-content: center;
-  gap: 30px;
+  gap: 8px;
   margin-bottom: 50px;
 }
 .buttonnext:hover,
