@@ -159,6 +159,10 @@ button {
 .loremitem {
   flex-basis: calc((100%- 90px) / 4);
 }
+.section-lorem {
+  padding-top: 94px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
