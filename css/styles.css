@@ -37,7 +37,7 @@ img {
 }
 ul {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
   display: flex;
 }
@@ -53,7 +53,7 @@ button {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding-left: 15px;
+  padding: 0 15px;
 }
 .section {
   padding-top: 94px;
@@ -76,8 +76,8 @@ button {
 .container-first {
   display: flex;
   align-items: baseline;
-  padding-top: 24px;
   padding-bottom: 25px;
+  padding-top: 24px;
 }
 .brandname {
   font-family: 'Raleway';
@@ -98,8 +98,6 @@ button {
   color: var(--fourthcolor);
 }
 .list-upper {
-  margin: 0;
-  padding: 0;
   gap: 46px;
 }
 .nav-link:hover,
@@ -126,6 +124,8 @@ button {
 .container-second {
   padding-top: 200px;
   padding-bottom: 200px;
+  padding-left: 252px;
+  padding-right: 252px;
 }
 .main-header {
   font-size: 44px;
@@ -152,8 +152,10 @@ button {
 .list-second,
 .list-third {
   gap: 30px;
-  margin: 0;
-  justify-content: space-between;
+  padding: 0 15px;
+}
+.list-third {
+  padding: 0;
 }
 .loremitem {
   flex-basis: calc((100%- 90px) / 4);
@@ -252,8 +254,12 @@ button {
   text-align: center;
   background-color: var(--ninthcolor);
   color: var(--brandcolor);
-  cursor: pointer;
   font-family: 'Roboto';
+}
+.list-of-buttons {
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 56px;
 }
 .buttonnext:hover,
 .buttonnext:focus {
@@ -261,11 +267,15 @@ button {
   background-color: var(--fourthcolor);
   cursor: pointer;
 }
+
+.list-of-images-portfolio {
+  gap: 30px;
+  flex-wrap: wrap;
+}
 .image-border {
   height: 404px;
   width: 370px;
   border-radius: 0px;
-  background-color: #eeeeee;
 }
 .portfolioheader {
   font-size: 18px;
@@ -274,10 +284,15 @@ button {
   letter-spacing: 0.06em;
   text-align: left;
   color: var(--brandcolor);
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding-left: 24px;
 }
 .portfoliodescription {
   font-size: 16px;
   line-height: 1.88;
   text-align: left;
   color: var(--thirdcolor);
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
