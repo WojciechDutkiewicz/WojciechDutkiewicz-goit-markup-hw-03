@@ -258,11 +258,12 @@ button {
   background-color: var(--ninthcolor);
   color: var(--brandcolor);
   font-family: 'Roboto';
+  padding: 6px 22px;
 }
 .list-of-buttons {
   justify-content: center;
   gap: 30px;
-  margin-bottom: 56px;
+  margin-bottom: 50px;
 }
 .buttonnext:hover,
 .buttonnext:focus {
