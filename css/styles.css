@@ -76,8 +76,7 @@ button {
 .container-first {
   display: flex;
   align-items: baseline;
-  padding-bottom: 25px;
-  padding-top: 24px;
+  padding: 24px 27px 25px 15px;
 }
 .brandname {
   font-family: 'Raleway';
