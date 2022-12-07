@@ -265,8 +265,8 @@ button {
   gap: 8px;
   margin-bottom: 50px;
 }
-.buttonnext:hover,
-.buttonnext:focus {
+.button-next:hover,
+.button-next:focus {
   color: var(--fifhtcolor);
   background-color: var(--fourthcolor);
   cursor: pointer;
