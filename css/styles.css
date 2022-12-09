@@ -21,8 +21,7 @@ body {
   font-size: 14px;
   color: var(--brandcolor);
   background: var(--fifhtcolor);
-  width: 1600px;
-  margin: 0 auto;
+  letter-spacing: 0.03em;
 }
 h1,
 h2,
@@ -39,7 +38,6 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
 }
 a {
   text-decoration: none;
@@ -58,32 +56,30 @@ button {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  margin: 0 auto;
 }
 .footer {
   background-color: var(--sixthcolor);
-  margin: 0 auto;
-}
-.container-footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .boxfirst {
   margin: 0 auto;
-
   border-bottom: 1px solid #ececec;
 }
 .container-first {
   display: flex;
-  align-items: baseline;
-  padding: 24px 27px 25px 15px;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .brandname {
   font-family: 'Raleway';
   font-size: 26px;
   font-weight: 700;
   color: var(--secondcolor);
-  margin-right: 93px;
+  margin-right: auto;
+  letter-spacing: 0.03em;
 }
 .pieceofbrand {
   color: var(--fourthcolor);
@@ -97,7 +93,9 @@ button {
   color: var(--fourthcolor);
 }
 .list-upper {
+  display: flex;
   gap: 46px;
+  letter-spacing: 0.02em;
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -108,9 +106,8 @@ button {
 }
 .contact-links {
   font-weight: 500;
-  letter-spacing: 0.02em;
   color: var(--thirdcolor);
-  margin-left: 371px;
+  margin-left: auto;
   gap: 50px;
 }
 .contact-links a {
@@ -118,13 +115,8 @@ button {
 }
 .main-section {
   background-color: var(--sixthcolor);
-  margin: 0 auto;
-}
-.container-second {
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 252px;
-  padding-right: 252px;
 }
 .main-header {
   font-size: 44px;
@@ -134,6 +126,7 @@ button {
   text-align: center;
   color: var(--fifhtcolor);
   margin-bottom: 30px;
+  width: 696px;
 }
 .buttonfirst {
   font-size: 16px;
@@ -148,19 +141,16 @@ button {
   align-items: center;
   margin: 0 auto;
 }
-.list-second,
-.list-third {
+.list {
+  display: flex;
   gap: 30px;
-  padding: 0 15px;
 }
-.list-third {
-  padding: 0;
-}
+
 .loremitem {
   flex-basis: calc((100%- 90px) / 4);
 }
-.section-lorem {
-  padding-top: 94px;
+.section-ourteam {
+  padding-top: 0;
 }
 
 .visually-hidden {
@@ -177,6 +167,7 @@ button {
   overflow: hidden;
 }
 .loremheader {
+  letter-spacing: 0.03em;
   font-weight: 700;
   color: var(--brandcolor);
   margin-top: 0;
@@ -188,6 +179,7 @@ button {
   color: var(--thirdcolor);
 }
 .secondheader {
+  letter-spacing: 0.03em;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
@@ -201,21 +193,28 @@ button {
 .emloyee {
   border-radius: [object Object]px;
   background-color: var(--fifhtcolor);
-  padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .thirdheader {
+  letter-spacing: 0.03em;
   font-size: 16px;
   font-weight: 500;
   text-align: center;
   color: var(--brandcolor);
-  margin-top: 30px;
   margin-bottom: 10px;
+}
+.employee-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .position {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
   color: var(--thirdcolor);
+  letter-spacing: 0.03em;
 }
 .contactfooter {
   line-height: 1.71;
@@ -232,14 +231,12 @@ button {
   line-height: 1.71;
   color: var(--fifhtcolor);
   font-style: normal;
-  margin-bottom: 9px;
-}
-.mail {
-  display: block;
-  margin-bottom: 9px;
 }
 .footerlist {
   display: block;
+}
+.footerlist > li:not(:last-child) {
+  margin-bottom: 9px;
 }
 .brandnamefooter {
   display: block;
@@ -249,6 +246,7 @@ button {
   text-align: left;
   color: var(--fifhtcolor);
   margin-bottom: 20px;
+  letter-spacing: 0.03em;
 }
 
 .button-next {
@@ -260,8 +258,11 @@ button {
   color: var(--brandcolor);
   font-family: 'Roboto';
   padding: 6px 22px;
+  letter-spacing: 0.03em;
+  line-height: 1.62;
 }
 .list-of-buttons {
+  display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
@@ -274,11 +275,11 @@ button {
 }
 
 .list-of-images-portfolio {
+  display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
 .image-border {
-  height: 404px;
   width: 370px;
   border-radius: 0px;
 }
@@ -288,6 +289,7 @@ button {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   padding-left: 24px;
+  padding-right: 24px;
   padding-bottom: 20px;
 }
 .portfolioheader {
@@ -304,4 +306,5 @@ button {
   line-height: 1.88;
   text-align: left;
   color: var(--thirdcolor);
+  letter-spacing: 0.03em;
 }
